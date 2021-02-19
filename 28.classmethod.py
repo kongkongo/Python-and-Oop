@@ -29,6 +29,21 @@ object_1=MyClass(10)
 print("\nValue   of     object:%s"%object_1.get_val())
 print(MyClass.get_count())
 
+object_2=MyClass(20)
+print("\nValue   of     object:%s"%object_2.get_val())
+print(MyClass.get_count())
+
+object_3=MyClass(30)
+print("\nValue   of     object:%s"%object_3.get_val())
+print(MyClass.get_count())
+
 结果：
 Value   of     object:10
 1
+
+Value   of     object:20
+2
+
+Value   of     object:30
+3
+
